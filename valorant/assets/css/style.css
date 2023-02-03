@@ -1,0 +1,178 @@
+@font-face { 
+    font-family: "VALORANT";
+    src: url("../fonts/Valorant\ Font.ttf");
+    font-style: normal;
+}
+@font-face { 
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-Bold.ttf");
+    font-style: normal;
+}
+@font-face { 
+    font-family: "Oswald-medium";
+    src: url("../fonts/Oswald-Medium.ttf");
+    font-style: normal;
+}
+@font-face { 
+    font-family: "Oswald-demi-bold";
+    src: url("../fonts/Oswald-DemiBold.ttf");
+    font-style: normal;
+}
+@font-face { 
+    font-family: "Dinnext-medium";
+    src: url("../fonts/dinnextw1g_medium.otf");
+    font-style: normal;
+}
+   body{
+    background-color: #ECE8E1;
+    padding: 0px;
+    margin: 0px;
+}
+.container-nav{
+    max-width: 1180px;
+    margin: 0 auto;
+   
+}
+.back-nav{
+    height: 100px;
+    width: 100%;
+    background: #111111;
+}
+.flex-nav{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.font-nav-1 a{
+    font-family: "VALORANT";
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 37px;
+    color: #ECE8E1;
+    text-decoration: none;
+}
+.font-nav-2 a{
+    font-family:"Oswald-medium";
+    text-decoration: none;
+    color: #ECE8E1;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.btn-nav{
+    border: 2px solid #DC3D4B;
+    border-radius: 5px;
+    font-family:"Oswald-medium";
+    padding-left: 11px;
+    font-size: 15px;
+    line-height: 27px;
+    background-color: transparent;
+    height: 50px;
+    width: 250px;
+    outline: none;
+    background: url(../icon/search.svg);
+    background-repeat: no-repeat;  
+    background-position: 210px;
+  
+}
+.btn-nav::placeholder {color: #ECE8E1;}
+
+.video-nav{
+    position: absolute;
+     left: 0;right: 0;
+     margin: auto;
+    height: 695px;
+    object-fit: cover;
+    width: 99.8%;
+    border: 2px solid #FA4454;
+    border-radius: 0px 0px 20px 20px;
+    border-width: 0px 2px 2px 2px;
+  
+}
+.line-main{
+    max-width: 1180px;
+    margin: 0 auto;
+    border-left: 10px solid #ffff;
+    z-index: 100;
+}
+.container-nav-2{
+    max-width: 1180px;
+    height: 695px;
+    margin: 0 auto;
+    border-left: 1px solid #ffff;
+    z-index: 100;
+}
+
+.text-video-flex{
+    position:absolute;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+    width: 1180px;
+    height: 695px;
+    border-left: 0.5px solid #ECE8E1;
+    border-right: 0.5px solid #ECE8E1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text-main-1{
+    font-family:"Dinnext-medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ECE8E1;
+}
+
+.text-main-2{
+    font-family:"VALORANT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 64px;
+    color: #ECE8E1;
+}
+
+.btn-main{
+    background: #FA4454;
+    width: 280px;
+    height: 60px;
+    border:none;
+    border-radius: 5px;
+}
+.text-main-3{
+    display: block;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #FAFAFA;
+text-decoration: none;
+}
+.hidden{
+background-image: url(../icon/Rectangle\ 334.png);
+width: 323px;
+    height: 92px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.line-main-2{
+    position: absolute;
+    width: 0.5px; 
+    background-color: #ECE8E1; 
+    height: 695px; 
+    float:left;
+    margin-left: 527px;
+    
+}
