@@ -1,0 +1,152 @@
+@media (min-width: 1140px) {
+    .back-text-three-four {
+        margin-left: 0;
+    }
+
+    .four_block_position {
+        height: 782px;
+    }
+
+    .back-text-two {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .back-text-two {
+        margin-left: -18px;
+        font-size: 220px;
+    }
+
+    .back-text-three {
+        margin-left: 304px;
+        font-size: 220px;
+    }
+
+    .back-text-two-four {
+        font-size: 220px;
+    }
+
+    .back-text-three-four {
+        font-size: 220px;
+        margin-left: 325px;
+    }
+
+    .back-text-one-four {
+        margin-left: 869px;
+    }
+
+    .container {
+        max-width: 860px;
+    }
+
+    .container-nav {
+        max-width: 860px;
+    }
+
+    .container-nav-two {
+        max-width: 860px;
+    }
+
+    .container-four_block {
+        max-width: 860px;
+    }
+
+    .text-video-flex {
+        width: 860px;
+    }
+
+    .second_block_video_back {
+        height: 910px;
+    }
+
+    .block_mode_one {
+        width: 400px;
+    }
+
+    .block_mode_two {
+        width: 400px;
+    }
+
+    .four_block_position {
+        height: 776px;
+    }
+
+    .map_decor_one {
+        width: 246px;
+    }
+
+    .map_decor_six {
+        width: 239px;
+        height: 156px;
+    }
+
+    .five_block_map {
+        width: 1261px;
+        height: 577px;
+    }
+
+    .main-map {
+        margin-top: -136px;
+        height: 714px;
+    }
+
+    .btn_map_two {
+        margin-top: -71px;
+    }
+
+    .five_block_maps {
+        margin-top: 7px;
+    }
+
+    .btn_map_two {
+        margin-top: -71px;
+    }
+
+    .btn_map_three {
+        margin-top: -73px
+    }
+
+    .btn_map_four {
+        margin-top: -62px;
+    }
+
+    .btn_map_five {
+        margin-top: -56px;
+    }
+
+
+    .btn_map_six {
+        margin-top: -43px;
+    }
+
+    .five_text_decor-two {
+        font-size: 50px;
+    }
+
+    .five_text_decor-three {
+        font-size: 16px;
+    }
+
+    .five_text_decor-four {
+        font-size: 16px;
+    }
+
+    .hidden-five {
+        width: 263px;
+        height: 80px;
+    }
+
+    .five_block_btn {
+        width: 236px;
+        height: 62px
+    }
+
+    .five_block_decor_five {
+        font-size: 16px;
+    }
+
+    .five-margin {
+        margin-top: -180px;
+    }
+}
